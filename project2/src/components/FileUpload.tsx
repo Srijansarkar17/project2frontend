@@ -3,7 +3,7 @@ import { Upload, FileText, AlertCircle, CheckCircle, Download, Loader2 } from 'l
 import type { ProcessingResult } from '../types';
 
 // API base URL - change this if your Flask server runs on a different port
-const API_BASE_URL = 'http://localhost:5002';
+const API_BASE_URL = 'https://project2backenddeploy-production.up.railway.app';
 
 const FileUpload: React.FC = () => {
   const [file, setFile] = useState<File | null>(null);
